@@ -1,0 +1,20 @@
+.sidebar {
+  max-width: 400px;
+  width: 100%;
+  position: fixed;
+  background-color: #12372A;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.sidebar span {
+  font-family: "Rakkas", serif;
+  font-size: 48px;
+  text-align: center;
+  color: #FBFADA;
+}
