@@ -1,20 +1,20 @@
 .sidebar {
-  max-width: 400px;
+  max-width: 300px;
   width: 100%;
   background-color: #900C3F;
   height: 100%;
+  position: fixed;
   display: flex;
-  align-items: center;
   flex-direction: column;
   padding: 32px;
-  gap: 48px;
 }
 
 .sidebar span {
   font-family: "Rakkas", serif;
-  font-size: 48px;
+  font-size: 40px;
   text-align: center;
   color: #F8DE22;
+  margin-bottom: 32px;
 }
 
 .sidebar ul {
@@ -26,14 +26,30 @@
 }
 
 .sidebar ul li {
-  display: block;
+ display: inline-block;
+  
 }
 
 .sidebar ul li a {
   text-decoration: none;
-   font-family: "Roboto", sans-serif;
    font-weight: 500;
    color: #FEFDED;
    font-size: 24px;
-   padding: 8px;
+   padding: 8px 0;
+}
+
+
+.sidebar ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  /* margin-top: 4px; */
+  height: 4px;
+  background: #F8DE22;
+  transition: width .6s;
+}
+
+.sidebar ul li a:hover::after {
+  width: 20%;
+  transition: width .3s;
 }

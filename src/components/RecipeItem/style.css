@@ -1,0 +1,23 @@
+.container-meal {
+  max-width: 268px;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-meal {
+  display: block;
+  width: 268px;
+  height: 268px;
+}
+
+.title-meal {
+  height: 80px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #900C3F;
+  color: #F8DE22;
+  text-align: center;
+}

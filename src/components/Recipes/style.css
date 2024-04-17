@@ -1,0 +1,18 @@
+.recipes {
+  display: flex;
+  flex-direction: column;
+  padding: 56px;
+  margin-left: 300px;
+}
+
+.recipes .title {
+  font-size: 48px;
+  color: #900C3F;
+  margin-bottom: 50px;
+}
+
+.recipes .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 76px;
+}

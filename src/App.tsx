@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { SideBarMenu } from "./components/SidebarMenu";
-import { MainContent } from "./components/MainContent";
+import { Recipes } from "./components/Recipes";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <SideBarMenu />
       <main>
         <Routes>
-          <Route path="/:categoryId" element={<MainContent />} />
+          <Route path="/:categoryId" element={<Recipes />} />
         </Routes>
       </main>
     </div>
